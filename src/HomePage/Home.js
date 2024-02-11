@@ -1,5 +1,6 @@
 import React from 'react'
 import Poster from '../Media/travis-scott-jfi0e3appl6ayo4o.jpg'
+import { GoArrowDownRight } from "react-icons/go";
 
 function Home() {
     return (
@@ -10,7 +11,9 @@ function Home() {
                 <h1 className='text-8xl font-bold'>Softwere Developer</h1>
                 <div className='flex justify-between mt-5'>
                     <p className='text-4xl font-semibold'>(Darbhanga, Bihar)</p>
-                    <p className='text-4xl font-semibold'> Scroll Down </p>
+
+                    <p className='text-4xl font-semibold flex'> <GoArrowDownRight className='text-5xl mx-3' /> Scroll Down </p>
+
                 </div>
             </div>
 
