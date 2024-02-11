@@ -12,7 +12,7 @@ function Nav() {
   return (
     <div className='fixed z-50 top-10 right-6'>
 
-      <button className='bg-black font-bold text-xl text-white px-6 py-4 rounded-full mx-1 border-2 border-white' onClick={toggleNav}>Menu</button>
+      <button className='bg-black font-bold text-xl text-white px-7 py-4 rounded-full mx-1 border-2 border-white' onClick={toggleNav}>Menu</button>
       {isNavOpen && (
         <div className='z-50 bg-black text-white fixed top-0 left-0 w-full h-full items-center flex justify-center'>
           <ul className='flex flex-col'>
@@ -22,7 +22,7 @@ function Nav() {
             <Link className='text-9xl font-bold text-center p-1' onClick={toggleNav} to="about">ABOUT</Link>
             <Link className='text-9xl font-bold text-center p-1' onClick={toggleNav} to="contact">CONTACT</Link>
           </ul>
-          <button className='fixed top-10 right-6 bg-white font-bold text-xl text-black px-6 py-4 rounded-full mx-1 border-2 border-white' onClick={toggleNav}>Close</button>
+          <button className='fixed top-10 right-6 bg-white font-bold text-xl text-black px-7 py-4 rounded-full mx-1 ' onClick={toggleNav}>Close</button>
         </div>
       )}
     </div>

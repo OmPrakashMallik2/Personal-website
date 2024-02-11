@@ -8,9 +8,9 @@ function Footer() {
       <div className='py-28 flex flex-col items-center justify-between'>
         <p className='font-medium text-4xl'>(Connect)</p>
         <h1 className='font-bold text-9xl my-6' >Let's talk</h1>
-        <button className='rounded-full font-medium text-xl bg-white text-black px-8 py-3 mt-8'>
+        <Link to="contact" className='rounded-full font-medium text-xl bg-white text-black px-8 py-3 mt-8'>
           Get in Touch
-        </button>
+        </Link>
       </div>
 
       <div className='flex justify-around mb-14'>
