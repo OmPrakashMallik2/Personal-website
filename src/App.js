@@ -1,7 +1,7 @@
 import React from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Footer from './Footer';
 import Home from './HomePage/Home';
-import { Route, Routes } from 'react-router-dom';
 import Contanct from './Contact/Contanct';
 import Work from './Work/Work';
 import Blog from './Blog/Blog';
@@ -10,7 +10,7 @@ import Nav from './Nav';
 
 function App() {
   return (
-    <div className=''>
+    <div className='bg-neutral-50'>
       <Nav />
       <Routes>
         <Route path="" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contanct />} />
       </Routes>
-      < Footer/>
+      < Footer />
     </div >
   );
 }

@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className='bg-black text-white'>
+    <div className='bg-neutral-900 text-neutral-100'>
 
       <div className='py-28 flex flex-col items-center justify-between'>
         <p className='font-medium text-4xl'>(Connect)</p>
         <h1 className='font-bold text-9xl my-6' >Let's talk</h1>
-        <Link to="contact" className='rounded-full font-medium text-xl bg-white text-black px-8 py-3 mt-8'>
+        <Link to="contact" className='rounded-full font-semibold text-xl text-neutral-900  bg-neutral-100 px-8 py-3 mt-8'>
           Get in Touch
         </Link>
       </div>
@@ -34,7 +34,7 @@ function Footer() {
         </div>
       </div>
 
-      <p className='text-center text-lg py-4 font-medium'>© Made by Om Prakash Mallik - Powered by Mallik</p>
+      <p className='text-center text-lg py-4 font-medium'>© Made by Om Prakash Mallik - Powered by OPM</p>
     </div>
   )
 }
