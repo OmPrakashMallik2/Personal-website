@@ -1,12 +1,26 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Poster from '../Media/travis-scott-jfi0e3appl6ayo4o.jpg'
 import { GoArrowDownRight } from "react-icons/go";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaInstagram} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { LuArrowDownRight } from "react-icons/lu";
 
 function Home() {
+
+    const [scrollOffset, setScrollOffset] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setScrollOffset(window.scrollY);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
     return (
         <div className='text-neutral-900 bg-neutral-100'>
             {/* name heading */}
@@ -84,6 +98,8 @@ function Home() {
 
 
             {/* my clients */}
+            <h1 className='text-9xl font-bold text-center p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>PROJECTS  PROJECTS  PROJECTS  PROJECTS PROJECTS PROJECTS  PROJECTS  PROJECTS  PROJECTS PROJECTS</h1>
+
             <div className='flex  m-14  '>
 
                 <div className='flex justify-between pr-6 w-1/5'>
@@ -123,6 +139,7 @@ function Home() {
 
 
             {/* project */}
+            <h1 className='text-9xl font-bold text-center p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>SKILLS  SKILLS  SKILLS  SKILLS SKILLS SKILLS  SKILLS  SKILLS SKILLS  SKILLS  SKILLS  </h1>
             {/* skill */}
         </div>
     )

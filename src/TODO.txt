@@ -1,0 +1,4 @@
+- add smooth hover to nav-items ✅
+- make all page start from top ✅
+- Nav bar not opening in smooth way 
+- running Heading in project comp
