@@ -3,7 +3,7 @@ import avatar from '../Media/Avatar.jpg'
 
 function Contact() {
     return (
-        <div className='flex w-full'>
+        <div className='flex w-full '>
             <div className='w-1/2'>
                 <img
                     className='w-full sticky top-0 h-screen object-cover'

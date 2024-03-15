@@ -130,7 +130,7 @@ function Home() {
                         </div>
                         <div className='ml-14 pl-14 border-l-2 border-neutral-900'>
                             <h3 className='text-5xl pb-5 font-semibold'>Portfolio 2</h3>
-                            < a href='https://opmportfolio.netlify.app/' target='-blank' className='text-neutral-100 bg-neutral-800 rounded font-semibold px-8 py-3'>Project link</a>
+                            < a href='https://personal-website-gamma-ashen.vercel.app/' target='-blank' className='text-neutral-100 bg-neutral-800 rounded font-semibold px-8 py-3'>Project link</a>
                             <p className='text-xl pt-5'>
                                 Developed a sleek portfolio website using React.js and Tailwind CSS.
                                 Showcased projects and skills with dynamic components.
