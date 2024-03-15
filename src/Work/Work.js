@@ -33,7 +33,10 @@ function Work() {
 
     return (
         <div>
-            <h1 className='text-9xl font-bold text-center p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>PROJECTS  PROJECTS  PROJECTS  PROJECTS PROJECTS</h1>
+            <div style={{ overflow: 'hidden' }}>
+                <h1 className='text-9xl font-bold text-center p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>PROJECTS  PROJECTS  PROJECTS  PROJECTS PROJECTS PROJECTS  PROJECTS  PROJECTS  PROJECTS PROJECTS</h1>
+            </div>
+
             {/* Render project cards */}
             {data.map((project) => (
                 <div key={project.id} className={project.id % 2 === 0 ? 'flex text-neutral-800 bg-neutral-100' : 'flex bg-neutral-800 text-neutral-100'}>
