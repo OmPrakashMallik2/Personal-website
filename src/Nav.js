@@ -53,16 +53,16 @@ function Nav() {
                 to={item.to}
                 style={{
                   transition: 'font-size 0.3s ease-in-out', // Smooth transition for font size change
-                  fontSize: '7rem', // Initial font size
+                  fontSize: '3rem', // Initial font size
                 }}
-                onMouseEnter={(e) => { e.target.style.fontSize = '9rem' }} // Increase font size on hover
-                onMouseLeave={(e) => { e.target.style.fontSize = '7rem' }} // Return to initial font size when not hovered
+                onMouseEnter={(e) => { e.target.style.fontSize = '5rem' }} // Increase font size on hover
+                onMouseLeave={(e) => { e.target.style.fontSize = '3rem' }} // Return to initial font size when not hovered
               >
                 <GoArrowDownRight className='text-6xl mr-4' />{item.title}
               </Link>
             ))}
           </ul>
-          <button className='fixed top-10 right-6 bg-white font-bold text-xl text-black px-7 py-4 rounded-full mx-1 ' onClick={toggleNav}>Close</button>
+          <button className='fixed top-4 lg:top-10 right-3 lg:right-6 bg-white font-bold text-xl text-black px-7 py-4 rounded-full mx-1 ' onClick={toggleNav}>Close</button>
         </div>
       )}
     </div>
