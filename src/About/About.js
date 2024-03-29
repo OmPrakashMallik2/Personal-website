@@ -6,7 +6,7 @@ function Home() {
     <div className='flex flex-col lg:flex-row w-full'>
       <div className='lg:w-1/2'>
         <img
-          className='w-full sticky top-0 h-screen object-cover'
+          className='w-full sticky top-0 h-screen'
           src={avatar}
           alt='profile-pic'
         />
