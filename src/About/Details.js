@@ -2,9 +2,9 @@ import React from 'react'
 
 function Details() {
   return (
-    <div className='p-14'>
+    <div className='lg:p-14 m-8 lg:m-0'>
       <p className='text-4xl font-medium'>(About Me)</p>
-      <h1 className='font-bold text-9xl'>Om Prakash Mallik</h1>
+      <h1 className='font-semibold lg:font-bold text-8xl lg:text-9xl'>Om Prakash Mallik</h1>
       <p className='text-5xl font-medium my-5'>A Berlin-based Digital Designer and Art Director with a Passion for Captivating Visual Experiences.</p>
 
       <p className='text-xl font-medium my-6'>

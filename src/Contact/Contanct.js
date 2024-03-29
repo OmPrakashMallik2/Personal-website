@@ -3,18 +3,18 @@ import avatar from '../Media/Avatar.jpg'
 
 function Contact() {
     return (
-        <div className='flex w-full'>
-            <div className='w-1/2'>
+        <div className='flex flex-col lg:flex-row w-full'>
+            <div className='lg:w-1/2'>
                 <img
                     className='w-full sticky top-0 h-screen object-cover'
                     src={avatar}
                     alt='profile-pic'
                 />
             </div>
-            <div className='w-1/2 p-14'>
+            <div className='lg:w-1/2 lg:p-14 m-8 lg:m-0'>
                 < div className='mb-16' >
                     <p className='text-4xl font-semibold'>(Contact)</p>
-                    <h1 className='text-9xl font-bold'>Let’s get in touch</h1>
+                    <h1 className='text-8xl lg:text-9xl font-bold'>Let’s get in touch</h1>
                 </div>
                 < div className='flex flex-col ' >
                     <input className='p-4 text-xl font-medium outline-none m-2 rounded-xl bg-neutral-800 text-neutral-100' type='text' placeholder='Your Name' />
