@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import avatar from '../Media/Avatar2.jpg';
+// import avatar from '../Media/Avatar2.jpg';
 import { FaJava } from "react-icons/fa";
 
 function Blog() {
