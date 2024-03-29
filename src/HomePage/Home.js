@@ -24,12 +24,12 @@ function Home() {
     return (
         <div className='text-neutral-900 bg-neutral-100'>
             {/* name heading */}
-            <div className='p-14'>
-                <h1 className='text-9xl font-bold'>Om Prakash Mallik</h1>
-                <h1 className='text-9xl text-neutral-600 font-semibold'>Full Stack Developer</h1>
+            <div className='px-12 py-6 lg:p-14'>
+                <h1 className='text-7xl md:text-5xl lg:text-9xl font-bold'>Om Prakash Mallik</h1>
+                <h1 className='text-4xl pt-4 text-neutral-600 font-semibold'>Full Stack Developer</h1>
                 <div className='flex justify-between mt-5'>
-                    <p className='text-4xl font-semibold'>(Darbhanga, Bihar)</p>
-                    <p className='text-4xl font-semibold flex'> <GoArrowDownRight className='text-5xl mx-3' /> Scroll Down </p>
+                    <p className='text-xl lg:text-4xl font-semibold'>(Darbhanga, Bihar)</p>
+                    <p className='text-xl lg:text-4xl font-semibold flex'> <GoArrowDownRight className='text-2xl lg:text-5xl mx-3' /> Scroll Down </p>
                 </div>
             </div>
 

@@ -80,7 +80,7 @@ function Footer() {
         }
       </div>
 
-      <p className='text-center text-sm sm:text-lg py-4 font-medium'>© Made by Om Prakash Mallik - Powered by OPM</p>
+      <p className='text-center text-sm sm:text-lg sm:px-3 py-4 font-medium'>© Made by Om Prakash Mallik - Powered by OPM</p>
     </div>
   )
 }
