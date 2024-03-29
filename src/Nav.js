@@ -39,9 +39,9 @@ function Nav() {
   ]
 
   return (
-    <div className='fixed z-50 top-10 right-6'>
+    <div className='fixed z-50 top-4 lg:top-10 right-3 lg:right-6'>
 
-      <button className='bg-neutral-900 font-bold text-xl text-neutral-100 px-7 py-4 rounded-full mx-1 border-2 border-neutral-100' onClick={toggleNav}>Menu</button>
+      <button className='bg-neutral-900 font-bold text-xl text-neutral-100 px-7 py-4 rounded-full lg:mx-1 border-2 border-neutral-100' onClick={toggleNav}>Menu</button>
       {isNavOpen && (
         <div className='z-50 bg-neutral-900 text-neutral-100  fixed top-0 left-0 w-full h-full items-center flex justify-center'>
           <ul className='flex flex-col items-center'>
