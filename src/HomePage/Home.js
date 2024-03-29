@@ -39,7 +39,7 @@ function Home() {
             </div>
 
             {/* about */}
-            <div className='flex  m-14 '>
+            {/* <div className='flex  m-14 '>
                 <div className=' pr-6 w-4/6'>
                     <h2 className='text-7xl font-semibold'>
                         I am a full-stack developer specializing in web application development. I graduated with a B.Tech in Computer Science and Engineering in 2023.
@@ -62,10 +62,10 @@ function Home() {
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* my skills */}
-            <div style={{ overflow: 'hidden' }}>
+            {/* <div style={{ overflow: 'hidden' }}>
                 <h1 className='text-9xl font-bold text-center p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>SKILLS  SKILLS  SKILLS  SKILLS SKILLS SKILLS  SKILLS  SKILLS  SKILLS SKILLS</h1>
             </div>
 
@@ -101,11 +101,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
             {/* my projects */}
-            <div style={{ overflow: 'hidden' }}>
+            {/* <div style={{ overflow: 'hidden' }}>
                 <h1 className='text-9xl font-bold text-center p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>PROJECTS  PROJECTS  PROJECTS  PROJECTS PROJECTS PROJECTS  PROJECTS  PROJECTS  PROJECTS PROJECTS</h1>
             </div>
 
@@ -160,7 +160,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* new section */}
         </div>
