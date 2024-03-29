@@ -48,7 +48,7 @@ function Nav() {
             {navItem.map((item) => (
               <Link
                 key={item.id}
-                className='hover:text-neutral-600 text-8xl font-semibold text-center p-1 flex'
+                className='hover:text-neutral-600 text-8xl font-semibold text-center p-4 flex'
                 onClick={toggleNav}
                 to={item.to}
                 style={{
