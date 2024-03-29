@@ -43,7 +43,7 @@ function Nav() {
 
       <button className='bg-neutral-900 font-bold text-xl text-neutral-100 px-7 py-4 rounded-full lg:mx-1 border-2 border-neutral-100' onClick={toggleNav}>Menu</button>
       {isNavOpen && (
-        <div className='z-50 bg-neutral-900 text-neutral-100  fixed top-0 left-0 w-full h-full items-center flex justify-center'>
+        <div className='z-50 bg-neutral-900 text-neutral-100 fixed top-0 left-0 w-full h-full items-center flex justify-center'>
           <ul className='flex flex-col items-center'>
             {navItem.map((item) => (
               <Link
@@ -58,7 +58,7 @@ function Nav() {
                 onMouseEnter={(e) => { e.target.style.fontSize = '5rem' }} // Increase font size on hover
                 onMouseLeave={(e) => { e.target.style.fontSize = '3rem' }} // Return to initial font size when not hovered
               >
-                <GoArrowDownRight className='text-6xl mr-4' />{item.title}
+                <GoArrowDownRight className='text-6xl lg:mr-4' />{item.title}
               </Link>
             ))}
           </ul>
