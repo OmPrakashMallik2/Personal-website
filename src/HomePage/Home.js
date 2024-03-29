@@ -24,7 +24,7 @@ function Home() {
     return (
         <div className='text-neutral-900 bg-neutral-100'>
             {/* name heading */}
-            <div className='px-12 py-6 lg:p-14'>
+            <div className='m-7 lg:m-0 lg:p-14'>
                 <h1 className='text-7xl lg:text-9xl font-semibold lg:font-bold'>Om Prakash Mallik</h1>
                 <h1 className='text-4xl lg:text-9xl pt-4 text-neutral-600 font-semibold'>Full Stack Developer</h1>
                 <div className='flex justify-between mt-5'>
@@ -39,36 +39,37 @@ function Home() {
             </div>
 
             {/* about */}
-            {/* <div className='flex  m-14 '>
-                <div className=' pr-6 w-4/6'>
-                    <h2 className='text-7xl font-semibold'>
+            <div className='flex flex-col-reverse lg:flex-row m-7 lg:m-14 '>
+                <div className='lg:pr-6 lg:w-4/6'>
+                    <h2 className='text-3xl lg:text-7xl font-semibold'>
                         I am a full-stack developer specializing in web application development. I graduated with a B.Tech in Computer Science and Engineering in 2023.
                     </h2>
                 </div>
-                <div className='flex flex-col justify-between pl-14 border-l-4 border-neutral-900 w-2/6'>
-                    <p className='text-neutral-900 text-4xl font-medium'> (About Me) </p>
-                    <div className='flex'>
-                        <a href='https://www.linkedin.com/in/om-prakash-mallik-774187217/' target='-blank' className='bg-neutral-900 cursor-pointer rounded-full p-3 mr-4'>
-                            <FaLinkedin to="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/#" className='text-2xl text-neutral-100' />
+                <div className='flex flex-col justify-between lg:pl-14 lg:border-l-4 lg:border-neutral-900 lg:w-2/6'>
+                    <p className='text-neutral-900 text-xl text-center lg:text-4xl font-medium'> (About Me) </p>
+                    <div className='flex justify-center lg:justify-normal'>
+                        <a href='https://www.linkedin.com/in/om-prakash-mallik-774187217/' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 m-2 lg:m-0 lg:p-3 lg:mr-4'>
+                            <FaLinkedin to="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/#" className='text-xl lg:text-2xl text-neutral-100' />
                         </a>
-                        <a href='https://twitter.com/OmPrakashOG' target='-blank' className='bg-neutral-900 cursor-pointer rounded-full p-3 mr-4'>
-                            <FaXTwitter className='text-2xl text-neutral-100' />
+                        <a href='https://twitter.com/OmPrakashOG' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 m-2 lg:m-0 lg:p-3 lg:mr-4'>
+                            <FaXTwitter className='text-xl lg:text-2xl text-neutral-100' />
                         </a>
-                        <a href='https://www.instagram.com/om.prakash.mallik/' target='-blank' className='bg-neutral-900 cursor-pointer rounded-full p-3 mr-4'>
-                            <FaInstagram className='text-2xl text-neutral-100' />
+                        <a href='https://www.instagram.com/om.prakash.mallik/' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 m-2 lg:m-0 lg:p-3 lg:mr-4'>
+                            <FaInstagram className='text-xl lg:text-2xl text-neutral-100' />
                         </a>
-                        <a href='https://www.facebook.com/profile.php?id=100010378098581' target='-blank' className='bg-neutral-900 cursor-pointer rounded-full p-3 mr-4'>
-                            <FaFacebook className='text-2xl text-neutral-100' />
+                        <a href='https://www.facebook.com/profile.php?id=100010378098581' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 m-2 lg:m-0 lg:p-3 lg:mr-4'>
+                            <FaFacebook className='text-xl lg:text-2xl text-neutral-100' />
                         </a>
                     </div>
                 </div>
-            </div> */}
-
-            {/* my skills */}
-            {/* <div style={{ overflow: 'hidden' }}>
-                <h1 className='text-9xl font-bold text-center p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>SKILLS  SKILLS  SKILLS  SKILLS SKILLS SKILLS  SKILLS  SKILLS  SKILLS SKILLS</h1>
             </div>
 
+            {/* my skills */}
+            <div style={{ overflow: 'hidden' }}>
+                <h1 className='text-5xl lg:text-9xl font-bold text-center p-3 lg:p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>SKILLS  SKILLS  SKILLS  SKILLS SKILLS SKILLS  SKILLS  SKILLS  SKILLS SKILLS</h1>
+            </div>
+
+            {/* 
             <div className='flex  m-14 '>
 
                 <div className='flex justify-between pr-6 w-1/5'>
