@@ -37,12 +37,12 @@ function Home() {
         <div className='bg-neutral-300 p-3 my-3 rounded'>
           <h1>Address</h1>
           <p>Village + Post - Hirni, P.S. - Kusheshwar Asthan, Dist - Darbhanga</p>
-          <div className='flex'>
-            < CiMail />
+          <div className='flex items-center gap-3'>
+            < FaWhatsapp />
             <p>7352281493</p>
           </div>
-          <div className='flex'>
-            < FaWhatsapp />
+          <div className='flex items-center gap-3'>
+            < CiMail />
             <p>Omprakashmallik91@gmail.com</p>
           </div>
         </div>
