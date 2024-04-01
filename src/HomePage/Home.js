@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Poster from '../Media/Avatar2.jpg'
+import Poster from '../Media/login-avatar.jpg'
 // import Poster from '../Media/travis-scott-jfi0e3appl6ayo4o.jpg'
 import { GoArrowDownRight } from "react-icons/go";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
