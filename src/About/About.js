@@ -67,24 +67,24 @@ function Home() {
           </div>
         </div>
 
-        <div className='flex justify-center lg:justify-normal'>
-          <a href='https://www.linkedin.com/in/om-prakash-mallik-774187217/' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full m-2 lg:m-0 p-3 lg:mr-4'>
-            <FaLinkedin to="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/#" className='text-2xl text-neutral-100' />
+        <div className='flex lg:justify-start justify-between lg:gap-5'>
+          <a href='https://www.linkedin.com/in/om-prakash-mallik-774187217/' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 lg:p-3'>
+            <FaLinkedin className='text-xl lg:text-2xl text-neutral-100' />
           </a>
-          <a href='https://twitter.com/OmPrakashOG' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full m-2 lg:m-0 p-3 lg:mr-4'>
-            <FaXTwitter className='text-2xl text-neutral-100' />
+          <a href='https://twitter.com/OmPrakashOG' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 lg:p-3'>
+            <FaXTwitter className='text-xl lg:text-2xl text-neutral-100' />
           </a>
-          <a href='https://twitter.com/OmPrakashOG' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full m-2 lg:m-0 p-3 lg:mr-4'>
-            <FaGithub className='text-2xl text-neutral-100' />
+          <a href='https://github.com/OmPrakashMallik2' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 lg:p-3'>
+            <FaGithub className='text-xl lg:text-2xl text-neutral-100' />
           </a>
-          <a href='https://www.instagram.com/om.prakash.mallik/' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full m-2 lg:m-0 p-3 lg:mr-4'>
-            <SiLeetcode className='text-2xl text-neutral-100' />
+          <a href='https://leetcode.com/OmPrakashMallik/' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 lg:p-3'>
+            <SiLeetcode className='text-xl lg:text-2xl text-neutral-100' />
           </a>
-          <a href='https://www.instagram.com/om.prakash.mallik/' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full m-2 lg:m-0 p-3 lg:mr-4'>
-            <SiGeeksforgeeks className='text-2xl text-neutral-100' />
+          <a href='https://auth.geeksforgeeks.org/user/omprakashmallik91/practice' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 lg:p-3'>
+            <SiGeeksforgeeks className='text-xl lg:text-2xl text-neutral-100' />
           </a>
-          <a href='https://www.facebook.com/profile.php?id=100010378098581' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full m-2 lg:m-0 p-3 lg:mr-4'>
-            <SiCodingninjas className='text-2xl text-neutral-100' />
+          <a href='https://www.naukri.com/code360/profile/OmPrakashMallik' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full p-2 lg:p-3'>
+            <SiCodingninjas className='text-xl lg:text-2xl text-neutral-100' />
           </a>
         </div>
 
