@@ -1,5 +1,5 @@
 import React from 'react';
-import avatar from '../Media/Avatar2.jpg'
+import avatar from '../Media/login-avatar.jpg'
 
 function Contact() {
     return (

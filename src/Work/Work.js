@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import avatar from '../Media/Avatar2.jpg';
+import avatar from '../Media/login-avatar.jpg';
 
 function Work() {
     const [scrollOffset, setScrollOffset] = useState(0);
