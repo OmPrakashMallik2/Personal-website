@@ -1,4 +1,5 @@
 - add smooth hover to nav-items ✅
 - make all page start from top ✅
+- make responsive for mobile screen ✅
+- running Heading in project comp ✅
 - Nav bar not opening in smooth way 
-- running Heading in project comp

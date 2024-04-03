@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
 // import avatar from '../Media/Avatar2.jpg';
 import { FaJava } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 
-function Blog() {
+function Skills() {
     const [scrollOffset, setScrollOffset] = useState(0);
 
     useEffect(() => {
@@ -20,43 +22,43 @@ function Blog() {
     const data = [
         {
             "id": 1,
-            "logo": <FaJava/>,
+            "logo": FaJava,
             "title": "Core Java",
             "description": "description"
         },
         {
             "id": 2,
-            "logo": "logo",
+            "logo": FaJava,
             "title": "Spring Boot",
             "description": "description"
         },
         {
             "id": 3,
-            "logo": "logo",
+            "logo": FaReact,
             "title": "React js",
             "description": "description"
         },
         {
             "id": 4,
-            "logo": "logo",
+            "logo": FaCss3,
             "title": "Tailwind CSS",
             "description": "description"
         },
         {
             "id": 5,
-            "logo": "Logo",
+            "logo": FaJava,
             "title": "SQL",
             "description": "description"
         },
         {
             "id": 6,
-            "logo": "Logo",
+            "logo": FaJava,
             "title": "MySQL",
             "description": "description"
         },
         {
             "id": 7,
-            "logo": "Logo",
+            "logo": FaJava,
             "title": "Skill",
             "description": "description"
         }
@@ -70,10 +72,10 @@ function Blog() {
 
             {/* Render project cards */}
             {data.map((project) => (
-                <div key={project.id} className={project.id % 2 === 0 ? 'flex flex-col lg:flex-row text-neutral-800 bg-neutral-100' : 'flex flex-col-reverse lg:flex-row bg-neutral-800 text-neutral-100'}>
+                <div key={project.id} className={project.id % 2 === 0 ? 'flex flex-col items-center p-2 lg:flex-row text-neutral-800 bg-neutral-100' : 'flex flex-col-reverse items-center p-2 lg:flex-row bg-neutral-800 text-neutral-100'}>
                     {/* Project image */}
                     <div className={project.id % 2 === 0 ? 'lg:w-1/2' : 'lg:w-1/2 order-2'}>
-                        {project.logo}
+                        {<project.logo className='text-9xl w-full'/>}
                     </div>
                     {/* Project details */}
                     <div className='flex flex-col justify-around lg:w-1/2 p-10'>
@@ -90,4 +92,4 @@ function Blog() {
     )
 }
 
-export default Blog
+export default Skills

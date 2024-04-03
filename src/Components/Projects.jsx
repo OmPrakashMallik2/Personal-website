@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import avatar from '../Media/login-avatar.jpg';
 
-function Work() {
+function Projects() {
     const [scrollOffset, setScrollOffset] = useState(0);
 
     useEffect(() => {
@@ -69,4 +69,4 @@ function Work() {
     );
 }
 
-export default Work;
+export default Projects;

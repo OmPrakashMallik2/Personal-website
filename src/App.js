@@ -1,12 +1,12 @@
 import React from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import Footer from './Footer';
-import Home from './HomePage/Home';
-import Contanct from './Contact/Contanct';
-import Work from './Work/Work';
-import Blog from './Blog/Blog';
-import About from './About/About';
-import Nav from './Nav';
+import Footer from './Components/Footer';
+import Home from './Components/Home';
+import Contanct from './Components/Contanct';
+import About from './Components/About';
+import Nav from './Components/Nav';
+import Skills from './Components/Skills';
+import Projects from './Components/Projects';
 
 function App() {
 
@@ -21,9 +21,9 @@ function App() {
       <Nav />
       <Routes>
         <Route path="" element={<Home />} />
-        <Route path="work" element={< Work />} />
-        <Route path="blog" element={< Blog />} />
         <Route path="about" element={<About />} />
+        <Route path="projects" element={< Projects />} />
+        <Route path="skills" element={< Skills />} />
         <Route path="contact" element={<Contanct />} />
       </Routes>
       < Footer />

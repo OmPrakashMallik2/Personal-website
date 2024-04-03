@@ -24,12 +24,12 @@ function Nav() {
     {
       "id": 1,
       "title": "PROJECT",
-      "to": "/work"
+      "to": "/projects"
     },
     {
       "id": 1,
       "title": "SKILLS",
-      "to": "/blog"
+      "to": "/skills"
     },
     {
       "id": 1,
