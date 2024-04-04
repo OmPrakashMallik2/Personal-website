@@ -21,7 +21,7 @@ function Home() {
         };
     }, []);
     return (
-        <div className='text-neutral-900 bg-neutral-100'>
+        <div className='text-neutral-900'>
             {/* name heading */}
             <div className='m-7 lg:m-0 lg:p-14'>
                 <h1 className='text-7xl lg:text-9xl font-semibold lg:font-bold'>Om Prakash Mallik</h1>
