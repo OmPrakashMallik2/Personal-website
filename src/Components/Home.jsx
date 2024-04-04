@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Poster from '../Media/login-avatar.jpg'
-// import Poster from '../Media/travis-scott-jfi0e3appl6ayo4o.jpg'
 import { GoArrowDownRight } from "react-icons/go";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-// import { LuArrowDownRight } from "react-icons/lu";
 
 function Home() {
 
@@ -47,7 +45,7 @@ function Home() {
                     </h2>
                 </div>
                 <div className='flex flex-col justify-between lg:pl-14 lg:border-l-4 lg:border-neutral-900 lg:w-2/6'>
-                    <p className='text-neutral-900 text-xl text-center lg:text-4xl font-medium'> (About Me) </p>
+                    <p className='text-neutral-900 text-xl text-center lg:text-left lg:text-4xl font-medium'> (About Me) </p>
                     <div className='flex justify-center lg:justify-normal'>
                         <a href='https://www.linkedin.com/in/om-prakash-mallik-774187217/' target='-blank' className=' bg-neutral-900 cursor-pointer rounded-full m-2 lg:m-0 p-3 lg:mr-4'>
                             <FaLinkedin to="https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/#" className='text-2xl text-neutral-100' />

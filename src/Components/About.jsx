@@ -30,7 +30,6 @@ function Home() {
         {/* career objective */}
         <p className='text-4xl font-medium'>Passionate 2023 CSE graduate | Enthusiast in programming and web development | Seeking opportunities to make a digital impact.</p>
 
-
         {/* what i am currently doing */}
 
         {/* address */}
