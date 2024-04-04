@@ -65,7 +65,7 @@ function Home() {
 
             {/* my skills */}
             <div style={{ overflow: 'hidden' }}>
-                <h1 className='text-6xl lg:text-9xl font-bold text-center p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>SKILLS  SKILLS  SKILLS  SKILLS SKILLS SKILLS  SKILLS  SKILLS  SKILLS SKILLS</h1>
+                <h1 className='text-6xl lg:text-9xl font-bold text-center p-5' style={{ transform: `translateX(-${scrollOffset}px)`, whiteSpace: 'nowrap' }}>WELCOME  WELCOME  WELCOME  WELCOME WELCOME WELCOME  WELCOME  WELCOME  WELCOME WELCOME</h1>
             </div>
 {/* 
             <div className='flex  m-14 '>
