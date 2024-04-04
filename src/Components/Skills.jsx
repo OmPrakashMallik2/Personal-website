@@ -5,6 +5,7 @@ import { FaReact } from "react-icons/fa";
 import { SiSpringboot } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
+import { SiSpring } from "react-icons/si";
 
 function Skills() {
 
@@ -26,31 +27,31 @@ function Skills() {
         {
             "id": 1,
             "logo": FaJava,
-            "title": "Core Java",
+            "title": "Java",
             "description": "I am good at java programming, i have done all the basic core concepts of java like Data Types, Loops, Conditionals, OOPs, Multithreading"
         },
         {
             "id": 2,
+            "logo": SiSpring,
+            "title": "Spring Framework",
+            "description": "description"
+        },
+        {
+            "id": 3,
             "logo": SiSpringboot,
             "title": "Spring Boot",
             "description": "description"
         },
         {
-            "id": 3,
+            "id": 4,
             "logo": FaReact,
             "title": "React js",
             "description": "description"
         },
         {
-            "id": 4,
+            "id": 5,
             "logo": SiTailwindcss,
             "title": "Tailwind CSS",
-            "description": "description"
-        },
-        {
-            "id": 5,
-            "logo": FaJava,
-            "title": "SQL",
             "description": "description"
         },
         {
@@ -84,7 +85,7 @@ function Skills() {
                         {/* Project details */}
                         <div className='flex flex-col justify-around lg:w-1/2 p-10'>
                             <h2 className='font-semibold text-center pb-3 text-5xl'>{project.title}</h2>
-                            <p className='font-medium text-center text-xl'>{project.description}</p>
+                            <p className='font-normal text-center text-lg'>{project.description}</p>
                         </div>
                     </div>
                 </>

@@ -17,7 +17,7 @@ function App() {
   }, [location.pathname]);
 
   return (
-    <div className='bg-neutral-50'>
+    <div className='text-neutral-900 bg-neutral-100'>
       <Nav />
       <Routes>
         <Route path="" element={<Home />} />
