@@ -21,9 +21,9 @@ function Home() {
         };
     }, []);
     return (
-        <div className='text-neutral-900'>
+        <div className='text-neutral-900 bg-neutral-100'>
             {/* name heading */}
-            <div className='m-7 lg:m-0 lg:p-14'>
+            <div className='p-7 lg:m-0 lg:p-14'>
                 <h1 className='text-7xl lg:text-9xl font-semibold lg:font-bold'>Om Prakash Mallik</h1>
                 <h1 className='text-3xl lg:text-9xl pt-4 text-neutral-600 font-semibold'>Full Stack Developer</h1>
                 <div className='flex justify-between mt-5'>
